@@ -1,6 +1,12 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+header {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  /* Add a background color or background image to the header container to distinguish it from the rest of the page. */
+}
+
 body {
   background-color:#eae2b7;
   color: #1c2754;
