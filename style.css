@@ -1,72 +1,78 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
-
 header {
   margin: 0 auto;
   padding-bottom: 20px;
-  /* Add a background color or background image to the header container to distinguish it from the rest of the page. */
 }
-
 body {
-  background-color:#eae2b7;
+  background-color: #eae2b7;
   color: #1c2754;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
-
-a:link {color: #d62828; }
-a:visted {color: blue;}
-a:hover {color: #f77f00;}
-a:active {color: pink}
-
-/* Set the font family for any h1, h2, or h3 heading */
-h1 {text-align: center;
-  color: black
-  
+a:link {
+  color: #d62828;
+}
+a:visted {
+  color: blue;
+}
+a:hover {
+  color: #f77f00;
+}
+a:active {
+  color: pink;
+}
+h1 {
+  text-align: center;
+  color: black;
 }
 h2 {
-  text-align: center
-  
+  text-align: center;
 }
-h3 {text-align: center;
+h3 {
+  text-align: center;
   font-family: "Playfair Display", Times, serif;
 }
-
 article {
   padding: 50px 0;
 }
-
 article div {
   text-align: center;
   width: 100%;
 }
-
 p {
   line-height: 1.5;
 }
-
-/* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
   width: 600px;
 }
-
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.img-container {
+  flex: 1;
+  margin: 10px;
+  max-width: 200px;
+}
 img {
   width: 100%;
-  max-width: 200px;
   height: auto;
 }
-
 hr {
-  header, nav, article, div, footer
   border: 1px solid black;
 }
-
-/* Add your solution below */
-footer {text-align: center;}
-.image-circle { border-radius: 100px;
+footer {
+  text-align: center;
 }
-/* Flexbox styling for navigation */
+.image-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
 nav {
   display: flex;
   justify-content: center;
@@ -75,21 +81,42 @@ nav {
   margin-top: 20px;
   border-bottom: 1px solid black;
 }
-
-/* Styling for navigation links */
+ul {
+  display: inline;
+  list-style-position:inside;
+  padding-left:0;
+  list-style: disc;
+}
+li {
+  margin: 0 10px;
+}
+.flex-items {
+  text-align: center;
+}
 nav a {
   margin: 0 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
+  text-align: center;
 }
-
-nav a:hover {
-  text-decoration: underline;
+nav a: hover {
 }
-
-/* Logo text styling */
 .logo-text {
   font-weight: bold;
   font-size: 24px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.flex-item {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+.flex-item img {
+  width: 150px;
+  height: auto;
 }
