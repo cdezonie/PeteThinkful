@@ -34,7 +34,7 @@ h3 {
   font-family: "Playfair Display", Times, serif;
 }
 article {
-  padding: 50px 0;
+  padding: 10px 0;
 }
 article div {
   text-align: center;
@@ -45,7 +45,7 @@ p {
 }
 div {
   margin: auto;
-  width: 600px;
+  width: auto;
 }
 .container {
   display: flex;
@@ -59,18 +59,28 @@ div {
   max-width: 200px;
 }
 img {
+<<<<<<< Updated upstream
   width: 100%;
+=======
+  width: 150px;
+>>>>>>> Stashed changes
   height: auto;
 }
 hr {
   border: 1px solid black;
+  max-width:;
 }
 footer {
   text-align: center;
 }
 .image-circle {
+<<<<<<< Updated upstream
   border-radius: 50%;
   width: 100px;
+=======
+  border-radius: 100%;
+  width: 200px;
+>>>>>>> Stashed changes
   height: 100px;
 }
 nav {
@@ -79,8 +89,22 @@ nav {
   align-items: center;
   height: 60px;
   margin-top: 20px;
-  border-bottom: 1px solid black;
+  
 }
+ul {
+  display: inline;
+  list-style-position:inside;
+  padding-left:;
+  list-style: disc;
+}
+li {
+  margin:0 10px;
+  
+}
+.flex-items {
+  text-align: center;
+}
+<<<<<<< Updated upstream
 ul {
   display: inline;
   list-style-position:inside;
@@ -93,14 +117,20 @@ li {
 .flex-items {
   text-align: center;
 }
+=======
+>>>>>>> Stashed changes
 nav a {
   margin: 0 20px;
-  text-transform: uppercase;
+  text-transform: ;
   letter-spacing: 1px;
   text-decoration: none;
   text-align: center;
 }
+<<<<<<< Updated upstream
 nav a: hover {
+=======
+nav a:hover {
+>>>>>>> Stashed changes
 }
 .logo-text {
   font-weight: bold;
@@ -117,6 +147,10 @@ nav a: hover {
   text-align: center;
 }
 .flex-item img {
+<<<<<<< Updated upstream
   width: 150px;
+=======
+  width: 250px;
+>>>>>>> Stashed changes
   height: auto;
 }
