@@ -34,7 +34,7 @@ h3 {
   font-family: "Playfair Display", Times, serif;
 }
 article {
-  padding: 50px 0;
+  padding: 10px 0;
 }
 article div {
   text-align: center;
@@ -45,33 +45,21 @@ p {
 }
 div {
   margin: auto;
-  width: 600px;
+  width: auto;
 }
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-.img-container {
-  flex: 1;
-  margin: 10px;
-  max-width: 200px;
-}
+
 img {
   width: 100%;
+  max-width: 200px;
   height: auto;
 }
 hr {
   border: 1px solid black;
 }
-footer {
-  text-align: center;
-}
-.image-circle {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
+
+/* Add your solution below */
+footer {text-align: center;}
+.image-circle { border-radius: 100px;
 }
 nav {
   display: flex;
@@ -79,44 +67,28 @@ nav {
   align-items: center;
   height: 60px;
   margin-top: 20px;
-  border-bottom: 1px solid black;
+  
 }
 ul {
   display: inline;
   list-style-position:inside;
-  padding-left:0;
+  padding-left:;
   list-style: disc;
 }
-li {
-  margin: 0 10px;
-}
-.flex-items {
-  text-align: center;
-}
+
+/* Styling for navigation links */
 nav a {
   margin: 0 20px;
-  text-transform: uppercase;
+  text-transform: ;
   letter-spacing: 1px;
   text-decoration: none;
   text-align: center;
 }
-nav a: hover {
+
+nav a:hover {
+  text-decoration: underline;
 }
 .logo-text {
   font-weight: bold;
   font-size: 24px;
-}
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-}
-.flex-item {
-  flex: 1;
-  margin: 10px;
-  text-align: center;
-}
-.flex-item img {
-  width: 150px;
-  height: auto;
 }
